@@ -9,14 +9,17 @@ def read(fname):  # TODO: Implement this
         return fhandle.read()
     
 setup(
-    name = "periodic",
-    version = '2.1.1',
+    name = "periodic2023",
+    version = '2.2',
     author = 'Jose Luis Naranjo Gomez',
     author_email = 'luisnaranjo733@hotmail.com',
+    maintainer = 'Gerard Weatherby / NMRbox',
+    maintainer_email = 'gweatherby@uchc.edu',
     description = ("A periodic table API."),
     license = "GNU GPL",
     keywords = "chem chemistry periodic table finder elements",
-    url = "https://github.com/doubledubba/periodic",
+    #url = "https://github.com/doubledubba/periodic",
+    url = "https://github.com/NMRbox/periodic.git",
     packages = ['periodic'],
     #package_data = {'periodic': ['table.db']}
     include_package_data = True,
