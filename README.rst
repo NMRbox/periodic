@@ -8,6 +8,7 @@ Created by Luis Naranjo <luisnaranjo733@hotmail.com>
 Documentation at http://periodic.readthedocs.org
 
 Original source code https://github.com/doubledubba/periodic
+
 Maintainer fork https://github.com/NMRbox/periodic
 
 Installation
