@@ -2,7 +2,7 @@ from setuptools import setup,find_packages
 #from distutils.core import setup
 import os
 
-def read(fname):  # TODO: Implement this
+def read(fname):  
     fpath = os.path.join(
         os.path.abspath(os.path.dirname(__file__)), fname)
     with open(fpath, 'r') as fhandle:
@@ -10,7 +10,7 @@ def read(fname):  # TODO: Implement this
     
 setup(
     name = "periodic2023",
-    version = '2.2',
+    version = '2.2.1',
     author = 'Jose Luis Naranjo Gomez',
     author_email = 'luisnaranjo733@hotmail.com',
     maintainer = 'Gerard Weatherby / NMRbox',
